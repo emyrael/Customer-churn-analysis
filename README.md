@@ -13,17 +13,18 @@ Splitted the data into the train and test sets
 Standardazing the features on each set.
 
 With the complete train data.
-I used PCA to also use important features in the dataset.
 For each part I test the same models and algorithms:
 
 Logistic Regression (Scikit-Learn)
 Multi-Layer Perceptron (Scikit-Learn)
 Gradient Boosting (Scikit-Learn)
 Extreme Gradient Boosting (XGBoost)
-Light Gradient Boosting Machine (LightGBM)
+K Nearest Neigbors (KNN)
+Naive Bayes
+Decision Trees 
 Support Vector Machines (SVM)
 Initially, I tested the models performance on the validation set.
 
-By looking at the score metrics and speed performance, the model I would chose is the Gradient Boosting Classifier from the LightGBM package. But the XGBoost is close behind.
+By looking at the score metrics and speed performance, the model I would chose is the SVM package. But the XGBoost is close behind.
 
 However, I still believe I can improve the accuracy by applying feature engineering on the data, as well trying other models, even doing an ensemble model over all the tested models.
